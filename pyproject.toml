@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edge-infra-watchdog"
+version = "0.1.0"
+description = "Zero-dependency Python 3 PoE switch watchdog (SNMP RFC 3621 / CLI) and NUT UPS power monitor for edge servers."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "Mikhail Kurdyukov", email = "mail@kurdiukov.com"}]
+dependencies = []
+
+[project.scripts]
+edge-watchdog = "edge_watchdog.__main__:main"
