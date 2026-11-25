@@ -1,5 +1,8 @@
 # edge-infra-watchdog
 
+[![CI](https://github.com/Shaitan48/edge-infra-watchdog/actions/workflows/ci.yml/badge.svg)](https://github.com/Shaitan48/edge-infra-watchdog/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Zero-dependency Python 3 library and CLI for autonomous edge infrastructure self-healing:
 
 1. **PoE Watchdog (`edge_watchdog.poe_watchdog`, `edge_watchdog.snmp_poe`)**
